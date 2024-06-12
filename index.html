@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AC-02 javascript</title>
+    <style>
+        body{
+            font-family: 'Arial', 'Helvetica', sans-serif;
+            font-size: 133%;
+            margin: 0px 100px;
+        }
+        input{
+            margin-right: 16px;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>soma dos numeros pares e impares</h2>
+    <input type="number" placeholder="numero" id="somanum">
+    <button onclick="somawhile()">while</button>
+    <button onclick="somado()">do</button>
+    <button onclick="somafor()">for</button>
+    <p id="somares"></p>
+    <hr>
+    <h2>fibonacci</h2>
+    <input type="number" placeholder="numero" id="fibonum">
+    <button onclick="fibowhile()">while</button>
+    <button onclick="fibodo()">do</button>
+    <button onclick="fibofor()">for</button>
+    <p id="fibores"></p>
+    <hr>
+    <h2>verificacao do numero primo</h2>
+    <input type="number" placeholder="numero" id="primonum">
+    <button onclick="primowhile()">while</button>
+    <button onclick="primodo()">do</button>
+    <button onclick="primofor()">for</button>
+    <p id="primores"></p>
+    <script src="js/script.js"></script>
+</body>
+</html>
